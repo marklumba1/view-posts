@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #172246;
+}
+
+.nav-bar {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e3581;
+  box-shadow: inset;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 5px solid #172246;
+  z-index: 20;
+}
+.nav-bar p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-bar nav {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=global.css.map */

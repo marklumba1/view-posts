@@ -1,0 +1,38 @@
+@import "../variables";
+.post-container{
+    border: 1px solid $red;
+    padding: 5px;
+    background-color: $darkMedBlue;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column;
+    &:hover{
+        scale: 1.01;
+        transition: 200ms;
+        background-color: $darkBlue;
+        cursor: pointer;
+    }
+    h4{
+
+        font-style: oblique;
+        font-weight: 900;
+        color: $red;
+    }
+    div{
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        button{
+            height: fit-content;
+            background-color: $red;
+            padding: 5px 10px 5px 10px;
+            border-radius: 5px;
+            &:hover{
+                background-color: $red;
+                cursor: pointer;
+            }
+        }
+      
+    }
+}

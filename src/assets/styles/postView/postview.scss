@@ -1,0 +1,36 @@
+@import '../mixins';
+@import '../variables';
+.postview-container{
+    @include view-container;
+    .post{
+        border:2px solid $red;
+        background-color: $darkMedBlue;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .author{
+        background-color: $green;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .comments{
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: $darkBlue;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        .comment{
+            background-color: $darkMedBlue;
+            padding: 5px;
+            border-radius: 10px;
+           .user{
+            text-align: right;
+           }
+        }
+
+    }
+}

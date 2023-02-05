@@ -1,0 +1,35 @@
+.postview-container {
+  display: grid;
+  place-items: center;
+  padding: 30px 100px;
+}
+.postview-container .post {
+  border: 2px solid #b60000;
+  background-color: #1e3581;
+  padding: 5px;
+  border-radius: 5px;
+}
+.postview-container .author {
+  background-color: #005014;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.postview-container .comments {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #172246;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.postview-container .comments .comment {
+  background-color: #1e3581;
+  padding: 5px;
+  border-radius: 10px;
+}
+.postview-container .comments .comment .user {
+  text-align: right;
+}/*# sourceMappingURL=postview.css.map */

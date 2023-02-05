@@ -1,0 +1,21 @@
+.home-container{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 30px 100px;
+    .home-inner{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .title{
+            font-size: larger;
+            font-weight: bolder;
+        }
+        .posts{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:10px;
+        }
+    }
+   
+}

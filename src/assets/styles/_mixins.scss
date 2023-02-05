@@ -1,0 +1,5 @@
+@mixin view-container{
+    display: grid;
+    place-items: center;
+    padding: 30px 100px;
+}
